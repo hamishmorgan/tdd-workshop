@@ -2,8 +2,11 @@ _Bismillahi-r-Rahmani-r-Rahim_
 
 In the Name of God, the Merciful, the Compassionate
 
-Test Driven Development Workshop - Building a Web Crawler
-=========================================================
+Test Driven Development Workshop
+================================
+
+Building a Web Crawler
+----------------------
 
 Requirements:
 
@@ -28,9 +31,20 @@ What is TDD?
 TDD is a formal method of developing software which is intended to
 create robust, reusable code. It is very simple:
 
-- Write a failing test
-- Write code to make the test (and all other tests) pass
-- Refactor
-- Repeat
+- While true:
+    - Write a failing test
+    - Write code to make the test (and all other tests) pass
+    - Refactor
+
+
+User Stories
+============
+
+1. I want to extract ADJ* NOUN sequences from web pages
+    - Write a function that takes a string containing HTML
+    - Returns a list of ADJ* NOUN sequences extracted from the HTML
+
+
+
 
 
