@@ -18,6 +18,11 @@ The last can be installed by running:
 
     sudo pip install mock
 
+You can run the tests in the root directory of the project by typing
+
+    python setup.py test
+
+
 Introduction
 ------------
 
